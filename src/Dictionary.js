@@ -6,11 +6,11 @@ import { dictionary } from "./data";
     return (
       <>
         <HomePageHeader />
-        <div className="stock-container">
-          {stockData.map((data, key) => {
+        <div className="dictionary-container">
+          {dictionaryData.map((data, key) => {
             return (
               <div key={key}>
-                <Stock
+                <Dictionary
                   key={key}
                   company={data.company}
                   ticker={data.ticker}
@@ -32,8 +32,8 @@ import { dictionary } from "./data";
       </header>
     );
   };
-  
-  const Dictionary = ({ company, ticker, stockPrice, timeElapsed }) => {
+
+  const dictionaryData = ({ company, ticker, stockPrice, timeElapsed }) => {
     if (!company) return <div />;
     return (
       <table>
