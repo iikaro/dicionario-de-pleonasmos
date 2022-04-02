@@ -1,14 +1,16 @@
-// import logo from './logo.svg';
-import React from "react";
-import "./App.css";
-import { Dictionary } from "./Dictionary";
+import React, { Component } from 'react'
+import './App.css'
+import DictList from './dict/dictList';
 
-function App() {
-  return (
-    <div className="App">
-      <Dictionary />
-    </div>
-  );
+
+class App extends Component {
+  render () {
+    return (
+      <div className='App'>
+        <DictList />
+      </div>
+    )
+  }
 }
 
 // function App() {
