@@ -29,6 +29,7 @@ export const Link = styled.a`
 export const LogoWrapper = styled.svg`
   grid-area: nav;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(1, auto);
   align-items: left;
+  width: 10px;
 `

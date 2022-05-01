@@ -6,6 +6,7 @@ import {
   Column,
   FooterLink,
   Copyright,
+  SocialMediaIconLink,
 } from "./FooterStyles";
 
 import {
@@ -33,21 +34,23 @@ export const Footer = () => {
             <FooterLink href="#">Contato</FooterLink>
           </Column>
           <Column>
-            <FooterLink href="twitter.com">
+          <div>
+            <SocialMediaIconLink href="twitter.com">
               <FaTwitter />
-            </FooterLink>
-            <FooterLink href="instagram.com">
+            </SocialMediaIconLink>
+            <SocialMediaIconLink href="instagram.com">
               <FaInstagram />
-            </FooterLink>
-            <FooterLink href="facebook.com">
+            </SocialMediaIconLink>
+            <SocialMediaIconLink href="facebook.com">
               <FaFacebook />
-            </FooterLink>
-          </Column>
-        </Row>
+            </SocialMediaIconLink>
+          </div>
         <Copyright>
-          <div>© 2022 Dicionário de Pleonasmos</div>
-          <div>O primeiro dicionário de pleonasmos online da língua portuguesa.</div>
+          <p>© 2022 Dicionário de Pleonasmos</p>
+          <p>O primeiro dicionário de pleonasmos online da língua portuguesa.</p>
         </Copyright>
+        </Column>
+        </Row>
       </Container>
     </FooterBox>
   );

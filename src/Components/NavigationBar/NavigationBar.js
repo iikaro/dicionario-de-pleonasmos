@@ -7,6 +7,7 @@ const NavigationBar = () => {
     <a href="/pleonasm-list">Pleonasmos</a>
     <a href="/about">Sobre</a>
     <a href="/contact">Contato</a>
+    <a href="/pleonasm-of-the-day">Pleonasmo do dia</a>
   </div> 
   );
 };

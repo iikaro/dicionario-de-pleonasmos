@@ -1,15 +1,11 @@
 import styled from 'styled-components';
    
 export const FooterBox = styled.div`
-  padding: 20px 60px;
+  padding: 20px 0px;
   background: #edf0f4;
   position: relative;
   bottom: 0;
   width: 100%;
-  
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
-  }
 `;
    
 export const Container = styled.div`
@@ -18,13 +14,13 @@ export const Container = styled.div`
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-`
+`;
    
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 20px;
 `;
    
 export const Row = styled.div`
@@ -51,10 +47,23 @@ export const FooterLink = styled.a`
   }
 `;
 
+export const SocialMediaIconLink = styled.a`
+  padding: 0px 20px 0px 0px;
+  color: #3b4754;
+  margin-bottom: 14px;
+  font-size: 14px;
+  text-decoration: none;
+   
+  &:hover {
+      color: #fff;
+      transition: 200ms ease-in;
+  }
+`;
+
 export const Copyright = styled.div`
   color: #3b4754;
   margin-bottom: 14px;
   font-size: 14px;
   text-align: left;
-  margin-left: 60px;
+
 `;

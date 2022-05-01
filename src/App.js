@@ -13,6 +13,7 @@ import {
   Posts,
   Post,
   PleonasmList,
+  Entry,
 } from "./Components";
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route path="/pleonasm-list" element={<PleonasmList />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/pleonasm-of-the-day" element={<Entry />} />
             <Route path="/blog" element={<Blog />}>
               <Route path="" element={<Posts />} />
               <Route path=":postSlug" element={<Post />} />
