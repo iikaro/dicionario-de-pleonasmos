@@ -51,7 +51,7 @@ export const FooterLink = styled.a`
   }
 `;
 
-export const Copyright = styled.a`
+export const Copyright = styled.div`
   color: #3b4754;
   margin-bottom: 14px;
   font-size: 14px;

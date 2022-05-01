@@ -8,6 +8,12 @@ import {
   Copyright,
 } from "./FooterStyles";
 
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+} from 'react-icons/fa';
+
 export const Footer = () => {
   return (
     <FooterBox>
@@ -27,40 +33,21 @@ export const Footer = () => {
             <FooterLink href="#">Contato</FooterLink>
           </Column>
           <Column>
-            <FooterLink href="#">
-            <i className="fab fa-facebook">
-                <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                </span>
-              </i>
+            <FooterLink href="twitter.com">
+              <FaTwitter />
             </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-              </i>
+            <FooterLink href="instagram.com">
+              <FaInstagram />
             </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
-              </i>
+            <FooterLink href="facebook.com">
+              <FaFacebook />
             </FooterLink>
           </Column>
         </Row>
         <Copyright>
-        <div>© 2022 Dicionário de Pleonasmos</div>
-        <div>O primeiro dicionário de pleonasmos online da língua portuguesa.</div>
-      </Copyright>
+          <div>© 2022 Dicionário de Pleonasmos</div>
+          <div>O primeiro dicionário de pleonasmos online da língua portuguesa.</div>
+        </Copyright>
       </Container>
     </FooterBox>
   );

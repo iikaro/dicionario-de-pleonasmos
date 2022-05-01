@@ -2,31 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
-import {
-  Home,
-  About,
-  Contact,
-  Blog,
-  Posts,
-  Post,
-} from "./Components";
 
-// ReactDOM.render(
-//   ,
-
-//   document.getElementById("root")
-// );
-
-// serviceWorker.unregister();
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <React.StrictMode>
