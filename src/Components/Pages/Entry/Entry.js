@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { EntryCounterExample, EntryDefinition, EntryExample, EntryFirstPart, EntrySecondPart, EntryTitle } from "./EntryStyles";
+import { EntryCounterExample, EntryFirstPartDefinition, EntrySecondPartDefinition, EntryExample, EntryFirstPart, EntrySecondPart, EntryTitle, EntryExampleSource, EntryExplanation } from "./EntryStyles";
 import DictData from "../../../data/data.json";
 
 class Entry extends Component {
@@ -10,46 +10,43 @@ class Entry extends Component {
             //randomNumber: Math.floor(DictData.length * Math.random()),
         };
     }
-    
-    render(){
-    return (
-        <div>
-            <h1>Dicionário de Pleonasmos</h1>
-            <EntryTitle><p>
-            {DictData[7].firstWord}
-            {DictData[7].secondWord}
-            </p></EntryTitle>
 
-            <EntryFirstPart><p>
-                Primeira expressao</p>
-                <EntryDefinition>
-                    definition two
-                </EntryDefinition>
-            </EntryFirstPart>
+    render() {
+        return (
+            <div>
+                <h1>Pleonasmo do dia</h1>
+                <EntryTitle><p>
+                    
+                    
+                </p></EntryTitle>
+                <EntryFirstPart>
+                {DictData[27].firstWord}
+                </EntryFirstPart>
+                <EntryFirstPartDefinition>
+                    {DictData[27].firstWordClass}
+                </EntryFirstPartDefinition>
 
-            <EntrySecondPart><p>
-                Segunda expressao</p>
-                <EntryDefinition>
-                    definition two
-                </EntryDefinition>
-            </EntrySecondPart>
+                <EntrySecondPart>
+                {DictData[27].secondWord}
+                </EntrySecondPart>
+                <EntrySecondPartDefinition>
+                {DictData[27].secondWordClass}
+                </EntrySecondPartDefinition>
 
-            <EntryExample><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.
-            </p></EntryExample>
 
-            <EntryCounterExample><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.
-            </p></EntryCounterExample>
-        </div>
-    );
-}
+                <EntryExplanation>
+                {DictData[27].explanation}
+                </EntryExplanation>
+
+                <EntryExampleSource>
+                </EntryExampleSource>
+
+                <EntryCounterExample>
+                {DictData[27].counterExample}
+                </EntryCounterExample>
+            </div>
+        );
+    }
 }
 
 export default Entry;
