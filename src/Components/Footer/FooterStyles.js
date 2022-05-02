@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterBox = styled.div`
   padding: 20px 0px;
   background: #edf0f4;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
 `;
