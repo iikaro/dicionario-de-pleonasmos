@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <HeaderBox>
       <LogoWrapper>
-        <Logo /><Title>
+        <Title>
           Dicionário de Pleonasmos
         </Title>
       </LogoWrapper>

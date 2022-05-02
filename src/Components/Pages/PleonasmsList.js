@@ -3,7 +3,9 @@ import DictList from "../../dict/dictList";
 
 function Home() {
   return (
-    <DictList/>
+    <div>
+    {/* <DictList/> */}
+    </div>
   );
 }
 
