@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const FooterBox = styled.div`
   padding: 20px 0px;
   background: #edf0f4;
-  position: absolute;
   width: 100%;
 `;
    
@@ -12,6 +11,8 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
+    margin-top: auto;
+    bottom: 0;
     margin: 0 auto;
 `;
    
