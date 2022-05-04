@@ -1,35 +1,17 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
+  margin-left: 1%;
   font-size: 16pt;
   text-align: left;
-  color: darkgray;
+  color: #3b4754;
+  font-family: Arial, Helvetica, sans-serif;
 `;
 
 export const HeaderBox = styled.div`
-  display: grid;
-  grid-template-areas: "logo nav";
+  display: flex;
   background: lightgray;
   position: relative;
+  top: 0;
   width: 100%;
-  
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
-  }
 `;
-
-export const Link = styled.a`
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  background: papayawhip;
-  color: palevioletred;
-`;
-
-export const LogoWrapper = styled.svg`
-  grid-area: nav;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  align-items: left;
-  width: 10px;
-`

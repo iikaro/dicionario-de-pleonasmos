@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavigationBar = () => {
+export const NavigationBar = () => {
   return (
     <div class="topnav">
     <a href="/react-app">Início</a>
@@ -10,5 +10,3 @@ const NavigationBar = () => {
   </div> 
   );
 };
-
-export default NavigationBar;

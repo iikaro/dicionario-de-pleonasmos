@@ -1,17 +1,10 @@
 import React from 'react';
-import { Title, HeaderBox, LogoWrapper } from './HeaderStyles';
-import { ReactComponent as Logo } from './logo.svg'
+import {HeaderBox, Title} from './HeaderStyles';
 
 export const Header = () => {
   return (
     <HeaderBox>
-      <LogoWrapper>
-        <Title>
-          Dicionário de Pleonasmos
-        </Title>
-      </LogoWrapper>
+      <Title>Dicionário de Pleonasmos</Title>
     </HeaderBox>
   );
 };
-
-export default Header;

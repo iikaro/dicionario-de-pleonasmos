@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-   
+
 export const FooterBox = styled.div`
   padding: 20px 0px;
   background: #edf0f4;
   width: 100%;
 `;
-   
+
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -15,14 +15,14 @@ export const Container = styled.div`
     bottom: 0;
     margin: 0 auto;
 `;
-   
+
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 20px;
 `;
-   
+
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 
@@ -34,7 +34,7 @@ export const Row = styled.div`
                            minmax(200px, 1fr));
   }
 `;
-   
+
 export const FooterLink = styled.a`
   color: #3b4754;
   margin-bottom: 14px;

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import DictData from '../data/data.json'
+import DictData from './data.json'
 
 class DictList extends Component{
     render() {

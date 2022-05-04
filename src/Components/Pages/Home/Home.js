@@ -1,7 +1,7 @@
 import React from "react";
 import { HomeTextBox } from "./HomeStyles";
 
-function Home() {
+export const Home = () => {
     return (
         <div>
             <h1>Dicionário de Pleonasmos</h1>
@@ -16,5 +16,3 @@ function Home() {
         </div>
     );
 }
-
-export default Home;
