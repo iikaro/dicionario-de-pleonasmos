@@ -24,7 +24,6 @@ export const Entry = () => {
                 {DictData[27].secondWordClass}
             </EntrySecondPartDefinition>
 
-a
             <EntryExplanation>
                 {DictData[27].explanation}
             </EntryExplanation>
