@@ -4,6 +4,8 @@ export const FooterBox = styled.div`
   padding: 20px 0px;
   background: #edf0f4;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 `;
 
 export const Container = styled.div`
