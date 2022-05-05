@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "firstWord": "Melhora",
+    "secondWord": "Positiva",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "A palavra melhora já remete a coisas boas, mudanças positivas.",
+    "isVicious": 1
+  },
+  {
+    "id": 2,
+    "firstWord": "Ciclo",
+    "secondWord": "Fechado",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 3,
+    "firstWord": "Pequeno",
+    "secondWord": "Detalhe",
+    "firstWordClass": "Adjetivo",
+    "secondWordClass": "Substantivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 4,
+    "firstWord": "Resultado",
+    "secondWord": "Final",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 5,
+    "firstWord": "Gosto",
+    "secondWord": "Pessoal",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 6,
+    "firstWord": "Diminuir",
+    "secondWord": "Menos",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 7,
+    "firstWord": "Aumentar",
+    "secondWord": "Mais",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 8,
+    "firstWord": "Subir",
+    "secondWord": "Para cima",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 9,
+    "firstWord": "Descer",
+    "secondWord": "Para baixo",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 10,
+    "firstWord": "Sair",
+    "secondWord": "Para fora",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 11,
+    "firstWord": "Entrar",
+    "secondWord": "Para dentro",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 12,
+    "firstWord": "Vaga",
+    "secondWord": "Livre",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 13,
+    "firstWord": "Rotina",
+    "secondWord": "Cotidiana",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 14,
+    "firstWord": "Consenso",
+    "secondWord": "Geral",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 15,
+    "firstWord": "Aprender",
+    "secondWord": "Algo novo",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Objeto direto",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 16,
+    "firstWord": "Presunto",
+    "secondWord": "De porco",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 17,
+    "firstWord": "Traduzir",
+    "secondWord": "Em outras palavras",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 18,
+    "firstWord": "Começar ",
+    "secondWord": "Primeiro",
+    "firstWordClass": "Verbo ",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 19,
+    "firstWord": "Prioridade",
+    "secondWord": "Única",
+    "firstWordClass": "Substantivo ",
+    "secondWordClass": "Adjetivo ",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 20,
+    "firstWord": "Dar",
+    "secondWord": "De graça ",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio ",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 21,
+    "firstWord": "Piora",
+    "secondWord": "Negativa",
+    "firstWordClass": "Substantivo ",
+    "secondWordClass": "Adjetivo ",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 22,
+    "firstWord": "Vantagem",
+    "secondWord": "Positiva",
+    "firstWordClass": "Substantivo ",
+    "secondWordClass": "Adjetivo ",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 23,
+    "firstWord": "Desvantagem",
+    "secondWord": "Negativa",
+    "firstWordClass": "Substantivo ",
+    "secondWordClass": "Adjetivo ",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 24,
+    "firstWord": "Regra",
+    "secondWord": "Geral",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 25,
+    "firstWord": "Certeza",
+    "secondWord": "Absoluta",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 26,
+    "firstWord": "Terminar",
+    "secondWord": "Por último",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 27,
+    "firstWord": "Acabamento",
+    "secondWord": "Final",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 28,
+    "firstWord": "Encarar",
+    "secondWord": "De frente",
+    "firstWordClass": "Verbo",
+    "secondWordClass": "Advérbio",
+    "explanation": "Encarar é sinônimo de enfrentar, que já carrega a ideia de ser de frente.",
+    "isVicious": 1
+  },
+  {
+    "id": 29,
+    "firstWord": "Fogo",
+    "secondWord": "Quente",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 30,
+    "firstWord": "Pleonasmo",
+    "secondWord": "Redundante",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  },
+  {
+    "id": 31,
+    "firstWord": "Líquido",
+    "secondWord": "Molhado",
+    "firstWordClass": "Substantivo",
+    "secondWordClass": "Adjetivo",
+    "explanation": "",
+    "isVicious": 1
+  }
+ ]
