@@ -5,6 +5,7 @@ O dicionário de pleonasmos pode ser acessado a partir [deste link](https://iika
 
 ## Organização do repositório
 
+```
 +--📂public \
 |   +--📜404.html \
 |   +--📜favicon.ico \
@@ -20,6 +21,7 @@ O dicionário de pleonasmos pode ser acessado a partir [deste link](https://iika
 +--📜README.md \
 +--📜package-lock.json \
 +--📜package.json \
+```
 
 ## Notas para o desenvolvedor
 
