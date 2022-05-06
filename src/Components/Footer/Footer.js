@@ -1,12 +1,14 @@
 import React from "react";
 import {
   FooterBox,
-  Container,
   Row,
   Column,
   FooterLink,
   Copyright,
   SocialMediaIconLink,
+  DicioColumn,
+  FooterContainer,
+  LineBreak,
 } from "./FooterStyles";
 
 import {
@@ -17,8 +19,8 @@ import {
 
 export const Footer = () => {
   return (
-    <FooterBox>
-      <Container>
+    <FooterContainer>
+      <FooterBox>
         <Row>
           <Column>
             <FooterLink href="#">O que é um pleonasmo</FooterLink>
@@ -34,24 +36,27 @@ export const Footer = () => {
             <FooterLink href="#">Contato</FooterLink>
           </Column>
           <Column>
-          <div>
-            <SocialMediaIconLink href="twitter.com">
-              <FaTwitter />
-            </SocialMediaIconLink>
-            <SocialMediaIconLink href="instagram.com">
-              <FaInstagram />
-            </SocialMediaIconLink>
-            <SocialMediaIconLink href="facebook.com">
-              <FaFacebook />
-            </SocialMediaIconLink>
-          </div>
-        <Copyright>
-          <p>© 2022 Dicionário de Pleonasmos</p>
-          <p>O primeiro dicionário de pleonasmos online da língua portuguesa.</p>
-        </Copyright>
-        </Column>
+            <div>
+              <SocialMediaIconLink href="twitter.com">
+                <FaTwitter />
+              </SocialMediaIconLink>
+              <SocialMediaIconLink href="instagram.com">
+                <FaInstagram />
+              </SocialMediaIconLink>
+              <SocialMediaIconLink href="facebook.com">
+                <FaFacebook />
+              </SocialMediaIconLink>
+            </div>
+          </Column>
+        </Row><Row>
+          <Column>
+            <Copyright>
+              <p>© 2022 Dicionário de Pleonasmos.<br />
+              O primeiro dicionário de pleonasmos online da língua portuguesa.</p>
+            </Copyright>
+          </Column>
         </Row>
-      </Container>
-    </FooterBox>
+      </FooterBox>
+    </FooterContainer>
   );
 };

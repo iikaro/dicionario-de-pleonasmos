@@ -7,4 +7,9 @@ export const HomeTextBox = styled.div`
   text-align: center;
   bottom: 0;
   width: 100%;
+
 `;
+
+export const HomeText = styled.p`
+  line-height: 2;
+`

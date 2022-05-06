@@ -1,10 +1,11 @@
 import React from "react";
-import { EntryCounterExample, EntryFirstPartDefinition, EntrySecondPartDefinition, EntryFirstPart, EntrySecondPart, EntryTitle, EntryExampleSource, EntryExplanation } from "./EntryStyles";
+import { EntryCounterExample, EntryFirstPartDefinition, EntrySecondPartDefinition, EntryFirstPart, EntrySecondPart, EntryTitle, EntryExampleSource, EntryExplanation, PageContainer } from "./EntryStyles";
 import DictData from "../../../Data/data.json";
 
 export const Entry = () => {
     return (
         <div>
+            <PageContainer>
             <h1>Pleonasmo do dia</h1>
             <EntryTitle><p>
 
@@ -34,6 +35,8 @@ export const Entry = () => {
             <EntryCounterExample>
                 {DictData[27].counterExample}
             </EntryCounterExample>
+                    </PageContainer>
         </div>
+
     );
 }

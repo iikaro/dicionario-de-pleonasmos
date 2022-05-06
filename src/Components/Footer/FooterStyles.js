@@ -1,40 +1,44 @@
 import styled from 'styled-components';
 
-export const FooterBox = styled.div`
-  padding: 20px 0px;
-  background: #edf0f4;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-`;
-
-export const Container = styled.div`
-    display: flex;
+export const FooterContainer = styled.div`
+    display: flex-end;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
-    margin-top: auto;
-    bottom: 0;
-    margin: 0 auto;
-`;
+`
 
-export const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-left: 20px;
+export const FooterBox = styled.div`
+  height: 10rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #edf0f4;
 `;
 
 export const Row = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 
-                         minmax(185px, 1fr));
-  grid-gap: 20px;
-   
-  @media (max-width: 1000px) {
-    grid-template-columns: repeat(auto-fill, 
-                           minmax(200px, 1fr));
-  }
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+`;
+
+export const Column = styled.div`
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  margin-left: 20px;
+  flex-wrap: wrap;
+`;
+
+export const Copyright = styled.div`
+  background: #edf0f4;
+  color: #3b4754;
+  display: flex;
+  align-items: left;
+  margin-top: 0px;
+  font-size: 14px;
+  text-align: center;
 `;
 
 export const FooterLink = styled.a`
@@ -50,7 +54,7 @@ export const FooterLink = styled.a`
 `;
 
 export const SocialMediaIconLink = styled.a`
-  padding: 0px 20px 0px 0px;
+  padding-right: 20px;
   color: #3b4754;
   margin-bottom: 14px;
   font-size: 14px;
@@ -60,12 +64,4 @@ export const SocialMediaIconLink = styled.a`
       color: #fff;
       transition: 200ms ease-in;
   }
-`;
-
-export const Copyright = styled.div`
-  color: #3b4754;
-  margin-bottom: 14px;
-  font-size: 14px;
-  text-align: left;
-
 `;
