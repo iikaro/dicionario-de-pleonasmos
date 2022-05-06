@@ -6,21 +6,21 @@ O dicionário de pleonasmos pode ser acessado a partir [deste link](https://iika
 ## Organização do repositório
 
 ```
-+--📂public \
-|   +--📜404.html \
-|   +--📜favicon.ico \
-|   +--📜index.html \
-|   +--📜manifest.json \
-|   +--📜robots.txt \
-+--📂src \
-|   +--📂Components \
-|   +--📂Data \
-|   +--📜... other files \
-+--📜.gitignore \
-+--📜LICENSE \
-+--📜README.md \
-+--📜package-lock.json \
-+--📜package.json \
++--📂public
+|   +--📜404.html
+|   +--📜favicon.ico
+|   +--📜index.html
+|   +--📜manifest.json
+|   +--📜robots.txt
++--📂src
+|   +--📂Components
+|   +--📂Data
+|   +--📜... other files
++--📜.gitignore
++--📜LICENSE
++--📜README.md
++--📜package-lock.json
++--📜package.json
 ```
 
 ## Notas para o desenvolvedor
