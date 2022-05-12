@@ -1,4 +1,4 @@
-import DictData from "../Data/data.json"
+import DictData from "./data.json"
 
 let pleonasms = DictData
 

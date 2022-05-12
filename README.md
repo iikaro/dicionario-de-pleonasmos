@@ -1,7 +1,7 @@
 # Dicionário de pleonasmos
 ## Projeto
 
-O dicionário de pleonasmos pode ser acessado a partir [deste link](https://iikaro.github.io/react-app/).
+O dicionário de pleonasmos pode ser acessado a partir [deste link](https://iikaro.github.io/pleonasm-dict/).
 
 ## Organização do repositório
 

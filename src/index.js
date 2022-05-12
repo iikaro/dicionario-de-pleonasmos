@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <BrowserRouter basename="/react-app">
+  <BrowserRouter basename="/pleonasm-dict">
     <Routes>
       <Route path="/" element={<App />} >
       <Route path="home" element={<Home />} />
