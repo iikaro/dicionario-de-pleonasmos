@@ -92,4 +92,5 @@ export const EntryCounterExample = styled.div`
 export const PageContainer = styled.div`
   position: relative;
   padding-bottom: 6rem;
+  padding-top: 6rem;
 `

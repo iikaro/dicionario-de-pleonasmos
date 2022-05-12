@@ -1,5 +1,5 @@
 import React from "react";
-import { PageContainer } from "../Entry/EntryStyles";
+import { PageContainer } from "../Pleonasm/PleonasmStyles";
 
 export const About = () => {
   return (
