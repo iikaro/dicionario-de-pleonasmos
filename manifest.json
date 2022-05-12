@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pleonasmos",
+  "name": "Dicionário de Pleonasmos",
   "icons": [
     {
       "src": "favicon.ico",
