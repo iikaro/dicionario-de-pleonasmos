@@ -2,7 +2,7 @@ import { HiddenSearchLabel } from "./SearchBarStyles"
 
 export const SearchBar = () => {
     return(
-    <form action="/" method="get">
+    <form action="/pleonasm-dict/" method="get">
         <label htmlFor="header-search">
         <HiddenSearchLabel>Search blog posts</HiddenSearchLabel>
         </label>
