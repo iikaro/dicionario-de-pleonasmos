@@ -3,8 +3,6 @@ import {HeaderBox, Title} from './HeaderStyles';
 
 export const Header = () => {
   return (
-    <HeaderBox>
-      <Title>Dicionário de Pleonasmos</Title>
-    </HeaderBox>
+<div></div>
   );
 };
