@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FooterBox,
   Row,
@@ -23,27 +24,23 @@ export const Footer = () => {
       <FooterBox>
         <Row>
           <Column>
-            <FooterLink href="#">O que é um pleonasmo</FooterLink>
-            <FooterLink href="#">Pleonasmo do dia</FooterLink>
-            <FooterLink href="#">Reportar erro</FooterLink>
+          <Link to="/definition"><FooterLink>O que é um pleonasmo</FooterLink></Link>
           </Column>
           <Column>
-            <FooterLink href="#">Termos de uso</FooterLink>
-            <FooterLink href="#">Privacidade</FooterLink>
+          <Link to="/terms-of-use"><FooterLink>Termos de uso</FooterLink></Link>
           </Column>
           <Column>
-            <FooterLink href="#">Sobre nós</FooterLink>
-            <FooterLink href="#">Contato</FooterLink>
+          <Link to="/error-report"><FooterLink>Reportar erro</FooterLink></Link>
           </Column>
           <Column>
             <div>
-              <SocialMediaIconLink href="twitter.com">
+              <SocialMediaIconLink href="">
                 <FaTwitter />
               </SocialMediaIconLink>
-              <SocialMediaIconLink href="instagram.com">
+              <SocialMediaIconLink href="">
                 <FaInstagram />
               </SocialMediaIconLink>
-              <SocialMediaIconLink href="facebook.com">
+              <SocialMediaIconLink href="">
                 <FaFacebook />
               </SocialMediaIconLink>
             </div>
