@@ -9,7 +9,7 @@ export const PleonasmList = () => {
         DictData.map((entryData) => {
           return (
               <Link 
-              to={`${entryData.firstWord} ${entryData.secondWord}`.replaceAll(' ', '-')}
+              to={`${entryData.firstWord} ${entryData.secondWord.toLowerCase()}`.replaceAll(' ', '-')}
               key={entryData}>
               {entryData.firstWord} {entryData.secondWord}
               </Link>

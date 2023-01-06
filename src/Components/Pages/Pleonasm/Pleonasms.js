@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import { getPleonasms } from "../../../Data/Data";
+import { getPleonasms } from "../../../data/Data";
 
 export const Pleonasms = () => {
     let pleonasms = getPleonasms();
@@ -11,7 +11,7 @@ export const Pleonasms = () => {
                     <Link
                         to={`/pleonasms/${pleonasm.id}`}
                         key={pleonasm.id}>
-                        <h4>{pleonasm.firstWord} {pleonasm.secondWord}</h4>
+                        <h4>{pleonasm.firstWord} {pleonasm.secondWord.toLowerCase()}</h4>
                     </Link>
                 );
             })}

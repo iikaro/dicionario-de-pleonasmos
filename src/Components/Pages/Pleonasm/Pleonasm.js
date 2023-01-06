@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { EntryCounterExample, EntryFirstPartDefinition, EntrySecondPartDefinition, EntryFirstPart, EntrySecondPart, EntryTitle, EntryExampleSource, EntryExplanation, PageContainer } from "./PleonasmStyles";
-import { getPleonasm } from "../../../Data/Data";
+import { getPleonasm } from "../../../data/Data";
 
 export const Pleonasm = () => {
     let params = useParams();
